@@ -1,0 +1,77 @@
+*{
+    background-color: rgb(0, 0, 0);  
+   
+   color: white;
+   
+}
+
+.container-fluid{
+   padding: 20px;
+    
+}
+
+
+  
+  label {
+    font-weight: bold;
+    padding :2px;
+  }
+  
+  input[type="text"] {
+    margin-bottom: 1px;
+    padding:10px;
+    width:290px;
+    border:1px solid white; 
+  }
+  
+  input[type="button"] {
+    
+    width:200px;
+    padding: 2px;
+    
+    background-color: #ffffff;
+    color: rgb(10, 8, 8);
+    border-radius: 2px;
+    
+    cursor: pointer;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    height:auto;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+    background-color: #0c0c0c;
+  }
+  
+  
+  
+  
+  #print {
+    margin-top: 20px;
+    row-gap: 20px;
+   
+  }
+  #print  ol  li{
+    border:2px solid white; 
+  }
+
+  
